@@ -41,4 +41,3 @@ Please follow this [link](https://docs.aws.amazon.com/serverless-application-mod
    - Input **y** for all other options
 
    Wait for the stack to deploy, let's goto your AWS Console --> Cloudformation, click the stack that is running to monitor the deployment status. When status is completed.
-
