@@ -40,19 +40,16 @@
         </dependency>
 
         <!-- Respective AWS Construct Libraries -->
+
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
-            <artifactId>sns</artifactId>
+            <artifactId>ec2</artifactId>
             <version>${cdk.version}</version>
         </dependency>
+
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
-            <artifactId>sns-subscriptions</artifactId>
-            <version>${cdk.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>software.amazon.awscdk</groupId>
-            <artifactId>sqs</artifactId>
+            <artifactId>sam</artifactId>
             <version>${cdk.version}</version>
         </dependency>
 
